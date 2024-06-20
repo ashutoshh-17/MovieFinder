@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&effect=neon|shadow-multiple');
+
+body {
+ font-family: 'Poppins', Franklin Gothic;
+ background-image: url('images/backgrnd2.png');
+ background-size: cover;
+ background-position: center center;
+ display: flex;
+ height: 100vh;
+ flex-direction: column;
+ background-repeat: no-repeat;
+ margin: 0;
+}
+
+.welcome {
+  max-width: fit-content;
+  margin: 5px auto; /* Adjust margin for spacing */
+  text-align: center; /* Center align text */
+}
+
+.welcome h1 {
+  font-family: 'Poppins', Franklin Gothic;
+  color: #FAF9F6; /* Text color */
+  font-size: 36px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px; /* Increased top margin to shift the search box down */
+}
+
+.search-box {
+    width: 300px;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-box:focus {
+    border-color: #E50914;
+    transform: scale(1.02);
+}
+
+.search-button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E50914;
+    color: #FAF9F6;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button:hover {
+    background-color: #8B0000;
+    transform: scale(1.02);
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.discover
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}

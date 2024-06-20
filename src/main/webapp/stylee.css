@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&effect=neon|shadow-multiple');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+  font-family: 'Poppins', Franklin Gothic;
+  background-image: url('images/backgrnd2.png');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  margin: 0;
+  position: relative; /* Make the body the reference for absolute positioning */
+}
+
+.text-color {
+	color: #FAF9F6;
+}
+
+.movie-info {
+  position: absolute; /* Position it absolutely */
+  top: 150px; /* Distance from the top */
+  right: 100px; /* Distance from the right */
+  left: 350px;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  max-width: fit-content;
+  margin-left: auto;	
+}
+
+ .poster {
+      position: absolute;
+      left: 20px;
+      border: 2px solid #ddd;
+      padding: 0; /* Ensure no padding within the .poster div */
+      margin: 0; /* Ensure no margin within the .poster div */
+ }
+ 
+.poster img {
+      display: block; /* Prevent any inline spacing */
+      width: 100%; /* Make the image take the full width of the container */
+      height: auto; /* Maintain the aspect ratio */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      border: none; /* Ensure no border is added to the image */
+}
+
+.search-container {
+  position: absolute; /* Position it absolutely */
+  top: 20px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  max-width: fit-content;
+  margin-left: auto;
+}
+
+.search-box {
+  width: 150px; /* Make the search box smaller */
+  padding: 12px; /* Reduce padding */
+  border: 2px solid #ddd;
+  border-radius: 20px; /* Adjust border-radius */
+  font-size: 14px; /* Reduce font size */
+  outline: none;
+  transition: border-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-box:focus {
+  border-color: #E50914;
+  transform: scale(1.02);
+}
+
+.search-button {
+  padding: 12px 20px; /* Reduce padding */
+  margin-left: 5px; /* Adjust margin */
+  border: none;
+  border-radius: 20px; /* Adjust border-radius */
+  background-color: #E50914;
+  color: #FAF9F6;
+  font-size: 14px; /* Reduce font size */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button:hover {
+  background-color: #8B0000;
+  transform: scale(1.05);
+}
+
+.search-button:focus {
+  outline: none;
+}
