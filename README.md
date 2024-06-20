@@ -45,20 +45,20 @@ Movie Finder is a site where you can search for any movie to get detailed inform
    
 ## Screenshots
 
-![Home Page](screenshots/home_page.png)
 *Home Page*
+![Home Page](screenshots/home_page.png)
 
-![Search Results](screenshots/search_results.png)
 *Search Results*
+![Search Results](screenshots/search_results.png)
 
-![Movie Details](screenshots/not_found.png)
 *Movie Not Found*
+![Movie Details](screenshots/not_found.png)
 
 ## Contributors
 
 - [ashutoshh-17](https://github.com/ashutoshh-17)
 - [ACEGX25](https://github.com/ACEGX25)
-  Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+- Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## License
 
